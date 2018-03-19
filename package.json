@@ -4,17 +4,14 @@
   "description": "File metadata microservice",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abhinav-m/node-file-metadata-microservice.git"
   },
-  "keywords": [
-    "File",
-    "metadata",
-    "parser"
-  ],
+  "keywords": ["File", "metadata", "parser"],
   "author": "Abhinav Mishra",
   "license": "ISC",
   "bugs": {

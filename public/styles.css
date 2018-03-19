@@ -3,6 +3,7 @@
 }
 
 .container {
+  font-family: 'Open Sans Condensed', arial, sans;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -11,25 +12,38 @@
 }
 
 h1 {
-  align-self: flex-start;
+  letter-spacing: 2px;
 }
 
-.button-normal {
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  width: 150px;
-  background: blue;
-  border: none;
-  padding: none;
-  color: white;
-  border-radius: 5px;
-  transition: all ease-in 0.25s;
+.form-style {
+  width: 500px;
+  padding: 30px;
+  background: #ffffff;
+  margin: 50px auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
 }
 
-.button-normal:hover {
-  color: white;
-  background: black;
+.form-style input[type='submit'] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #45d6d6;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #45d6d6;
+  box-shadow: inset 0px 1px 0px 0px #45d6d6;
+  background-color: #2cbbbb;
+  border: 1px solid #27a0a0;
+  display: inline-block;
+  margin-top: 10px;
+  width: 100%;
   cursor: pointer;
-  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 14px;
+  padding: 8px 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.form-style input[type='submit']:hover {
+  background: linear-gradient(to bottom, #34caca 5%, #30c9c9 100%);
+  background-color: #34caca;
 }
